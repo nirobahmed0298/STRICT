@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    max-width: 100px;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+header{
+    background-color: #f6f9f9;
+    padding: 10px 0;
+    
+}
+.menu{
+    width: 80%;
+}
+.menu ul {
+       display: flex;
+       justify-content: flex-end;
+      
+}
+.menu ul li a{ 
+  padding: 0 20px;
+  color: #454444;
+  font-family: 'Oswald', sans-serif;
+}
+.banner-img{
+    background-image:url(./New\ Project.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+.banner{
+ position: relative;
+ text-align: center;
+
+ }
+.banner-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-1 h3{
+    font-size: 120px;color: #ffff;
+} 
+.banner-1 p{
+    font-size: 20px;color: #ffff;  
+      border-top: 2px solid #1295e6;
+      display: inline-block;
+
+} 
+.banner-1 a{
+    margin-top: 10px;
+    font-size: 18px;color: #ffff;
+    margin-bottom: 15px;
+    transition: 2s;
+    border: 1px solid #1295e6;
+
+} 
+/* end banner */
+.contants{
+    background-color: #f6f9f9;
+     text-align: center;
+     margin: 5% 0;
+}
+.my-contants{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+   padding: 60px 10px;
+}
+.my-contants h3{
+    font-size: 40px; 
+     margin-bottom: 3% ;
+}
+.my-contants p{
+    font-size: 15px; 
+    opacity: 0.5;
+      margin-bottom: 3% ;
+}
+.icon{
+    background-color: ffffff;
+}
+.icon-1 p{
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.5;
+}
+.icon-1 h4{
+    font-size: 18px;
+    text-align: center;
+
+}
+.icon-img i{
+    font-size: 30px;
+}
+
+.headinng{
+    margin-top: 4%;
+    text-align: center;
+}
+.headinng p{
+  font-size: 10px;
+  opacity: 0.5;
+}
+.headinng h4{
+    font-size: 35px;
+  }
+.foter{
+    background-color: #2d374b;
+    height: 80vh;
+}
+.foter-contant{
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    
+}
+.foter-contant p{
+   font-size: 8px;
+   opacity: 0.5;
+}
+form{
+    width: 25%;
+}
+.form-body{
+ position: relative;
+ margin-top: 3%;
+}
+.form-body-1{
+    position: absolute;
+    top: 50%; left: 39%;width: 95%;
+}
+.form-body-2{
+text-align: end;
+}
+.icon-img{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.footer{
+    background-color: #000000;
+     align-items: center;
+     padding: 15px 0;color: white;
+}
+.footer-1 a i{
+       padding: 0 8px; color: white;font-size: 20px;
+}
+.footer-1 p {
+    font-size: 10px;
+    opacity: 0.8;
+
+}
+
+/* Responsive */
+@media(max-width:575px){
+    .banner-1 h3{
+        font-size: 50px; 
+    }
+    .banner-1 p{
+        font-size: 10px;
+    }
+    .menu ul{
+        display: none;
+    }
+}
+@media(max-width:775px){
+    .banner-1 h3{
+        font-size: 60px; 
+    }
+    .banner-1 p{
+        font-size: 15px;
+    }
+
+}
